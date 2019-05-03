@@ -9,6 +9,7 @@ var spotify = new Spotify(keys.spotify)
 var getCommand = process.argv[2]
 var nameCommand = process.argv.slice(3).join(" ")
 
+
 function switchCaseCommand() {
     switch (getCommand) {
         
